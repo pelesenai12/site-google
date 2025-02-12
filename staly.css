@@ -1,22 +1,31 @@
-img{
-    height: 92px;
+
+*{
+ margin:0;
+padding: 0;
+
+}
+img{  /*estilo da tag imagen*/
+    height: 92px; /*altura*/
 }
 
-a{
-    text-decoration:none ; 
-    color: #1f1f1f;
-    font-size: 13px;
-    font-family: sans-serif;
+a{/*tag link/ancora*/
+    text-decoration:none ;/*tirou decoracao de texto*/ 
+    color: #1f1f1f;/*cor do texto*/
+    font-size: 13px;/*tamanho de fonte/texto*/
+    font-family: sans-serif;/*tipo/familia da fonte*/
 }
 .botao-login{
     background-color:  #1a73e8;
     color: white;
     padding: 13px 12px;
     font-weight: 500;
-    border-radius: 40px;
+    border-radius: 20px;
 }
 
 .icone-produtos{
     width: 24px;
    fill: #444746;
+}
+footer{
+    background-color: #f2f2f2;
 }
