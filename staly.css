@@ -1,31 +1,48 @@
 
-*{
- margin:0;
-padding: 0;
-
+*{   /*UNIVERSAL*/
+    margin: 0px; /*MARGEM*/
+    padding: 0px;  /*ESPAÇAMENTO INTERNO*/
 }
-img{  /*estilo da tag imagen*/
-    height: 92px; /*altura*/
+img{   /*ESTILO TAG IMAGEM */
+    height: 92px ;  /*altura*/
 }
-
-a{/*tag link/ancora*/
-    text-decoration:none ;/*tirou decoracao de texto*/ 
-    color: #1f1f1f;/*cor do texto*/
-    font-size: 13px;/*tamanho de fonte/texto*/
-    font-family: sans-serif;/*tipo/familia da fonte*/
+a{  /*TAG LINK /ANCORA*/
+    text-decoration: none; /*tirar decoração do texto*/
+     color: #1f1f1f; /*cor do texto*/
+     font-size: 13px; /*tamanho da fonte*/
+     font-family: sans-serif; /*tipo familia da fonte*/
 }
-.botao-login{
-    background-color:  #1a73e8;
-    color: white;
-    padding: 13px 12px;
-    font-weight: 500;
-    border-radius: 20px;
+.botao-login{ /*CLASSE botao-login*/
+    background-color: #1a73e8; /*COR DO FUNDO*/
+    color: white; /*COR DO TEXTO*/
+    padding: 13px 12px; /*ESPAÇAMENTO INTERNO*/
+    font-weight: 500;  /*PESO DA FONTE*/
+    border-radius: 40px; /*RAIO DA BORDA CURVATURA*/
 }
-
-.icone-produtos{
-    width: 24px;
-   fill: #444746;
+.icone-produtos{  /*CLASSE DE ICONE-PRODUTOS*/
+    width:24px ; /*largura*/
+    fill: #444746; /*COR PREENCHIMENTO*/
 }
 footer{
-    background-color: #f2f2f2;
+    background-color: #F2F2F2; /*COR DO FUNDO*/
+}
+.caixa-rodape{
+    padding: 15px 30px;
+}
+.caixa-rodape--borda{
+    border-bottom: 1px solid #dadce0; /*borda inferior*/
+}
+header{ /*CABEÇALHO*/
+    display: flex;
+    width: 500px;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px 14px;
+}
+
+.caixa-links{
+
+    display: flex;
+    gap: 30px;
 }
