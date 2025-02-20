@@ -3,35 +3,76 @@
     margin: 0px; /*MARGEM*/
     padding: 0px;  /*ESPAÇAMENTO INTERNO*/
 }
+
 img{   /*ESTILO TAG IMAGEM */
     height: 92px ;  /*altura*/
 }
 a{  /*TAG LINK /ANCORA*/
     text-decoration: none; /*tirar decoração do texto*/
-     color: #1f1f1f; /*cor do texto*/
-     font-size: 13px; /*tamanho da fonte*/
-     font-family: sans-serif; /*tipo familia da fonte*/
+    color: #1f1f1f; /*cor do texto*/
+    font-size: 13px; /*tamanho da fonte*/
+    font-family: sans-serif; /*tipo familia da fonte*/
 }
-.botao-login{ /*CLASSE botao-login*/
-    background-color: #1a73e8; /*COR DO FUNDO*/
-    color: white; /*COR DO TEXTO*/
-    padding: 13px 12px; /*ESPAÇAMENTO INTERNO*/
-    font-weight: 500;  /*PESO DA FONTE*/
-    border-radius: 40px; /*RAIO DA BORDA CURVATURA*/
+/*main*/
+.caixa-pesquisa{
+    display: flex;
+    width: 583px;
+    padding:10px 14px;
+    align-items: center;
+    gap: 13px;
+    border: 1px solid #dfe1e5;
+    border-radius:100px
 }
-.icone-produtos{  /*CLASSE DE ICONE-PRODUTOS*/
-    width:24px ; /*largura*/
-    fill: #444746; /*COR PREENCHIMENTO*/
+
+.caixa-icones{
+    display: flex;
+    align-items: center;
+    gap: 16px;
 }
+.input-pesquisa{
+  width: 100;
+  border: none;
+  outline: none;
+
+}
+
+
+.icone-lupa{
+ width: 20px; /*largura*/
+ fill: #9aa0a6;
+}
+.icone-teclado{
+    width: 16px;
+    height: 12px; 
+}
+.icone-colorido{
+    width: 24px;
+    height: 14px;
+}
+
+
+
+
+
+
+/* Rodape*/
 footer{
     background-color: #F2F2F2; /*COR DO FUNDO*/
 }
 .caixa-rodape{
+
     padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
 }
 .caixa-rodape--borda{
     border-bottom: 1px solid #dadce0; /*borda inferior*/
 }
+.caixa-links{
+    display: flex;
+    gap: 30px;
+}
+
 header{ /*CABEÇALHO*/
     display: flex;
     width: 500px;
@@ -39,10 +80,33 @@ header{ /*CABEÇALHO*/
     justify-content: center;
     gap: 15px;
     padding: 10px 14px;
+
 }
+
+.botao-login{ /*CLASSE botao-login*/
+    background-color: #1a73e8; /*COR DO FUNDO*/
+    color: white; /*COR DO TEXTO*/
+    padding: 13px 12px; /*ESPAÇAMENTO INTERNO*/
+    font-weight: 500;  /*PESO DA FONTE*/
+    border-radius: 40px; /*RAIO DA BORDA CURVATURA*/
+}
+
+.icone-produtos{
+    /*CLASSE DE ICONE-PRODUTOS*/
+    width:24px ; /*largura*/
+    fill: #444746; /*COR PREENCHIMENTO*/
+}
+
+
+
+
 
 .caixa-links{
 
     display: flex;
     gap: 30px;
 }
+
+
+
+
